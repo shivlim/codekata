@@ -1,0 +1,51 @@
+# Generic Files #
+*.lock
+*~
+tmp
+tmp/**/*
+
+# Directories #
+**/.DS_Store
+.DS_Store
+# Logs #
+*.log
+*.log.gz
+logs/*
+db/
+
+# Generated Files #
+*.class
+**/generated/
+
+# IDEs #
+**/.classpath
+**/.metadata
+**/.project
+**/.settings/
+**/.springBeans
+**/bin/
+**/classes/
+**/target/
+*.iml
+.gradle/
+.idea
+.idea/
+/backend/.nb-gradle/private/
+/backend/.nb-gradle/profiles/private/
+build/
+overlays/
+
+
+# Misc #
+!.gitkeep
+**/.refactorings/
+**/failure-screenshots/
+*.zip
+
+
+bdd/target*/
+rerun.txt
+*.rerun
+backend/gradlew
+backend/gradlew.bat
+backend/gradle/wrapper/gradle-wrapper.properties
